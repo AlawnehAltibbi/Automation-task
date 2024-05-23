@@ -8,7 +8,7 @@ export const config: WebdriverIO.Config = {
     // Specs
     // ============
     specs: [
-        '/Users/altibbi/Desktop/appium-boilerplate/tests/specs/android/LoginUserApp.spec.js',
+        '/Users/altibbi/Desktop/appium-boilerplate/tests/specs/LoginUserApp.spec.js',
     ],
 
     // ============
@@ -29,13 +29,13 @@ export const config: WebdriverIO.Config = {
             'appium:deviceName': 'Pixel 6',
             //
             // NOTE: Change this version according to the Emulator you have created on your local machine
-            'appium:platformVersion': '12.0',
+            'appium:platformVersion': '13',
             'appium:orientation': 'PORTRAIT',
             'appium:automationName': 'UiAutomator2',
             // The path to the app
             'appium:app': join(
                 process.cwd(),
-                'app/android/app-release (1).apk',
+                'app/android/app-release (2).apk',
                 //
                 // NOTE: Change this name according to the app version you downloaded
 
